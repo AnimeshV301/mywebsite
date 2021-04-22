@@ -1,0 +1,198 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful and bold</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .brand1{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .brand2{
+            font-weight: 400;
+        }
+        .linklist{
+            margin-left: 500px;
+            font-weight: 600;
+        }
+        .headerlinks{
+            margin-left: 26px;
+        }
+        .sliderimg{
+            width: 100%;
+            height: 400px;
+        }
+        .headertext{
+            font-size: 60px;
+    color: white;
+    text-align: center;
+    
+    position: relative;
+    bottom: 216px;
+    font-weight: 600;
+        }
+        .headspan{
+            color: gray;
+            font-weight: 300;
+        }
+        .section2head{
+            text-align: center;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .section2span{
+            color: gray;
+            font-weight: 400;
+        }
+        .cardhead{
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .cardtext{
+            text-align: justify;
+            
+        }
+        .cardimg{
+           height: 100px;
+           margin-left: 90px;
+        }
+        .cardsection{
+            margin-top: 50px;
+        }
+        .carousel-indicators li {
+            display: block;
+            border-radius: 1px solid;
+            border-radius: 50px;
+            height: 5px;
+            width: 5px;
+        }
+        @media only screen and (max-width: 600px) {
+            .linklist{
+                font-weight: 600;
+                margin-left: 0px;
+            }
+            .headerlinks{
+                margin-left: 0px;
+            }
+            .headertext {
+    font-size: 40px;
+            }
+            .section2head {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: -77px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand brand1" href="#">SMART<span class="brand2">BOX</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto linklist">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item headerlinks">
+                        <a class="nav-link" href="#">PAGES</a>
+                    </li>
+                    <li class="nav-item headerlinks">
+                        <a class="nav-link" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item headerlinks">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item headerlinks">
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item headerlinks">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+        <div class="col-md-12">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+              
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="sliderimg" src="./images/slider2.jpg" alt="Los Angeles">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="sliderimg" src="./images/slider1.jpg" alt="Chicago">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="sliderimg"  src="./images/slider3.jpg" alt="New York">
+                  </div>
+                 
+                </div>
+              
+              
+              </div>
+              <h1 class="headertext">BOLD <span class="headspan">&</span> BEAUTIFUL</h1>
+        </div>
+        <div class="col-md-12">
+            <h3 class="section2head">WHAT <span class="section2span"> WE DO?</span> </h3>
+            <div class="col-md-12 cardsection">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="cardimg" src="./images/logo1.png" alt="">
+                        <p class="cardhead">Web Application</p>
+                        <p class="cardtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente dolorum natus cupiditate tenetur voluptatem alias dicta, modi ab praesentium maxime nostrum perferendis non molestiae sed! Molestiae veritatis facere saepe.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cardimg" src="./images/logo2.png" alt="">
+                        <p class="cardhead">Card Hosting</p>
+                        <p class="cardtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente dolorum natus cupiditate tenetur voluptatem alias dicta, modi ab praesentium maxime nostrum perferendis non molestiae sed! Molestiae veritatis facere saepe.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cardimg" src="./images/logo3.png" alt="">
+                        <p class="cardhead">Social Design</p>
+                        <p class="cardtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente dolorum natus cupiditate tenetur voluptatem alias dicta, modi ab praesentium maxime nostrum perferendis non molestiae sed! Molestiae veritatis facere saepe.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cardimg" src="./images/logo4.png" alt="">
+                        <p class="cardhead">Smart Apps</p>
+                        <p class="cardtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente dolorum natus cupiditate tenetur voluptatem alias dicta, modi ab praesentium maxime nostrum perferendis non molestiae sed! Molestiae veritatis facere saepe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
